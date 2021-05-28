@@ -16,7 +16,7 @@ async function RFXDocument(request, response){
 
 
     response.json({        
-        sourcingApproval: sourcingResponseJson
+        docid: sourcingResponseJson
     });
 
 }
